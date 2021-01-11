@@ -59,7 +59,7 @@ Dialog.addMessage("\n");
 Dialog.addNumber("Minimum sigma for DifGaus filter", 1);
 Dialog.addNumber("Maximum sigma for DifGaus filter", 50);
 Dialog.addCheckbox("Save binary images, values an ROIs to disk?", false);
-Dialog.addMessage("\n(c) Federico N. Soria (federico.soria@achucarro.org)\nDec 2020");
+Dialog.addMessage("\n(c) Federico N. Soria (federico.soria@achucarro.org)\nJan 2021");
 Dialog.show();
 cell_ch=Dialog.getChoice();
 cell_name=Dialog.getString();
@@ -166,9 +166,9 @@ do{
 
 	//SAVE SEGMENTED IMAGE AND ROIs
     if (save_files==true) {
-    selectWindow(name+"_"+lyso_name);
-	saveAs("tiff", dir_im+File.separator+name+"_BIN_"+lyso_name+"_"+n);
-	roiManager("save", dir_roi+"ROI_"+name+"_"+n+".zip");
+    	selectWindow(name+"_"+lyso_name);
+		saveAs("tiff", dir_im+File.separator+"BIN_"+name+"_"+lyso_name+"_"+n);
+		roiManager("save", dir_roi+"ROI_"+name+"_"+n+".zip");
     }
     
 	cont=getBoolean("Do you want to analyze another cell?");
