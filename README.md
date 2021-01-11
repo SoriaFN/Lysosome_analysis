@@ -1,5 +1,5 @@
 # Lysosome Analysis
-ImageJ scripts used in *Arotcarena, Soria et al. (2021) [Journal]
+ImageJ scripts used in *Arotcarena, Soria et al. (2021) [Journal]*
 
 ## Lyso_distance.ijm
 *This macro calculates the distance from each lysosome (or similar puncta) to the center and average edge of the nucleus.*
