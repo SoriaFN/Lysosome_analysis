@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/328500157.svg)](https://zenodo.org/badge/latestdoi/328500157)
+
 # Lysosome Analysis
 ImageJ scripts used in *Arotcarena, Soria et al. (2021) [Journal]*
 
