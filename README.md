@@ -20,4 +20,4 @@ This macro calculates the distance from each lysosome (or similar puncta) to the
 - The "distance to center" is preferred only if all quantified cells have very similar nuclear area.
 
 
-The macro has been tested only with our datasets, so you will probably find bugs, or have suggestions. Please e-mail me.
+The macro has been tested with our datasets only, so you will probably find bugs, or have suggestions. If so, please e-mail me.
