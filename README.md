@@ -2,7 +2,7 @@
 ImageJ scripts used in *Arotcarena, Soria et al. (2021) [Journal]*
 
 ## Lyso_distance.ijm
-*This macro calculates the distance from each lysosome (or similar puncta) to the center and average edge of the nucleus.*
+This macro calculates the distance from each lysosome (or similar puncta) to the center and average edge of the nucleus.
 
 **How to use**
 1. Drag and drop lyso_distance.ijm file into FIJI
