@@ -8,7 +8,7 @@ ImageJ scripts used in *Arotcarena, Soria et al. (2021) [Journal]*
 1. Drag and drop lyso_distance.ijm file into FIJI
 2. Open a *multichannel* image.
 3. Run the script. A GUI will let you choose the segmentation channels and whether to save results to file.
-4. Follow the instructions. Manual segmentation At the end, an overlay will show you vectors where each distance was calculated.
+4. Follow the instructions for manual segmentation. At the end, an overlay will show you vectors where each distance was calculated.
 5. If you chose to save files, the binary image, ROIs and .csv quantification table will be available at the directory of choice.
 
 **Notes**
