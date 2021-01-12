@@ -1,6 +1,6 @@
 /*
- * LYSOSOMAL PUNCTA v1.0  
- * ---------------------
+ * LYSOSOMAL PUNCTA AND COLOCALIZATION v1.0  
+ * ----------------------------------------
  * 
  * This macro allows to quantify lysosomal (and other) puncta, plus colocalization with
  * other lysosomal marker (CatD, LC3, etc).
