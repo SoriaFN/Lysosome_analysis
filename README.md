@@ -34,7 +34,7 @@ This macro calculates the number of lysosome puncta (e.g. LAMP2-positive vesicle
 6. The custom results table can be left open after finishing analysis. It will be updated after quantification of successive images (useful for batch).
 
 **Notes**
-- Cell segmentation is semi-assisted, using a threshold adjust by the user. Since this threshold defines the cellular ROI where lysosomes will be searched, it is better to be less conservative.
+- Cell segmentation uses a threshold manually adjusted by the user. Since this threshold defines the cellular ROI where lysosomes will be searched, it is better to be less conservative.
 - Lysosome segmentation is automated via a pre-defined threshold chosen by the user at start.
 - A multichannel single plane image is needed: one channel to segment cell, another to segment lysosomes ("ref_puncta"), and a second type of puncta ("coloc_puncta").
 - The script has been optimized for in vivo immunostaining, where lysosomal labelling can be noisy. Hence, the macro includes a Difference of Gaussians filter to enhance features for automatic segmentation. You can minimize filtering by increasing the maximum sigma.
