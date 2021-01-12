@@ -1,7 +1,7 @@
 [![DOI](https://zenodo.org/badge/328500157.svg)](https://zenodo.org/badge/latestdoi/328500157)
 
 # Lysosome Analysis
-ImageJ/FIJI scripts used in *Arotcarena, Soria et al. (2021) [Journal]*
+ImageJ/FIJI scripts used in *Arotcarena, Soria et al. (2021) Autophagy*
 
 ## Lyso_distance.ijm
 This macro calculates the distance from each lysosome (or similar puncta) to the center and average edge of the nucleus.
