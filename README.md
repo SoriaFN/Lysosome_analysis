@@ -40,6 +40,4 @@ This macro calculates the number of lysosome puncta (e.g. LAMP2-positive vesicle
 - The script has been optimized for in vivo immunostaining, where lysosomal labelling can be noisy. Hence, the macro includes a Difference of Gaussians filter to enhance features for automatic segmentation. You can minimize filtering by increasing the maximum sigma.
 - A batch version of this macro (with fully automated cell segmentation) is available in my "Tools" repository.
 
-
-
-These scripts have been tested in FIJI with our images only. If you find bugs, or have suggestions, please e-mail me.
+***These scripts have been tested in FIJI with our images only. If you find bugs, or have suggestions, please e-mail me.***
