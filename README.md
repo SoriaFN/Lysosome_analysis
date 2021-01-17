@@ -20,7 +20,6 @@ This macro calculates the distance from each lysosome (or similar puncta) to the
 - The script has been optimized for in vivo immunostaining, where lysosomal labelling can be noisy. Hence, the macro includes a Difference of Gaussians filter to enhance features for automatic puncta segmentation. You can minimize filtering by increasing the maximum sigma. 
 - The "distance to border" is estimated using an *average* radius, which is calculated from an ellipse fitted to the (manually segmented) nuclear ROI. Hence, some lysosome distances might appear as negative values (This usually means that the lysosome is next to the nucleus border, but in some part where the nucleus does not achieve it maximal radius).
 - The "distance to center" is preferred only if all quantified cells have very similar nuclear area.
-- "Distance to border" is an estimation, since the 
 
 ## Lyso_puncta_coloc.ijm
 This macro calculates the number of lysosome puncta (e.g. LAMP2-positive vesicles) within a cellular ROI. It also estimates colocalization with other similar puncta (e.g. CatD).
