@@ -22,8 +22,6 @@
  * Federico N. Soria (January 2021)
  * federico.soria@achucarro.org
  * 
- * If you use this script for your publication please cite the original paper: 
- * Arotcarena, Soria et al., 2021, [Journal]
  */
 
 //INITIALIZATION
