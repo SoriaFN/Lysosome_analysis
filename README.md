@@ -1,6 +1,3 @@
-# How to cite
-[![DOI](https://zenodo.org/badge/328500157.svg)](https://zenodo.org/badge/latestdoi/328500157)
-
 # Lysosome Analysis
 ImageJ/FIJI scripts used in *Arotcarena, Soria et al. (2021)*
 
@@ -39,5 +36,9 @@ This macro calculates the number of lysosome puncta (e.g. LAMP2-positive vesicle
 - A multichannel single plane image is needed: one channel to segment cell, another to segment lysosomes ("ref_puncta"), and a second type of puncta ("coloc_puncta").
 - The script has been optimized for in vivo immunostaining, where lysosomal labelling can be noisy. Hence, the macro includes a Difference of Gaussians filter to enhance features for automatic segmentation. You can minimize filtering by increasing the maximum sigma.
 - A batch version of this macro (with fully automated cell segmentation) is available in my "Tools" repository.
+
+# How to cite
+Please acknowledge these scripts if you use them in your publication. Cite the DOI from Zenodo.
+[![DOI](https://zenodo.org/badge/328500157.svg)](https://zenodo.org/badge/latestdoi/328500157)
 
 ***These scripts have been tested in FIJI with our images only. If you find bugs, or have suggestions, please e-mail me.***
