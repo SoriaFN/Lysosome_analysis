@@ -9,7 +9,7 @@ Please acknowledge these scripts if you use them in your publication. Cite the D
 This macro calculates the distance from each lysosome (or similar puncta) to the center and average edge of the nucleus.
 
 **How to use**
-1. Drag and drop lyso_distance.ijm file into FIJI.
+1. Open lyso_distance.ijm file in FIJI.
 2. Open a *multichannel* image.
 3. Run the script. A GUI will let you choose the segmentation channels and whether to save results to file.
 4. Follow the instructions for manual segmentation. At the end, an overlay will show you vectors where each distance was calculated.
@@ -27,7 +27,7 @@ This macro calculates the distance from each lysosome (or similar puncta) to the
 This macro calculates the number of lysosome puncta (e.g. LAMP2-positive vesicles) within a cellular ROI. It also estimates colocalization with other similar puncta (e.g. CatD).
 
 **How to use**
-1. Drag and drop lyso_puncta_coloc.ijm file into FIJI.
+1. Open lyso_puncta_coloc.ijm file in FIJI.
 2. Open a *multichannel* image.
 3. Run the script. A GUI will let you choose the segmentation and puncta channels and whether to save results to file.
 4. Follow the instructions for cell segmentation. Puncta segmentation is automatic (user-defined threshold).
