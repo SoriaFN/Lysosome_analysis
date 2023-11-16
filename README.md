@@ -1,5 +1,5 @@
 # Lysosome Analysis
-ImageJ/FIJI scripts used in *Arotcarena, Soria et al. (2021)*
+ImageJ/FIJI scripts used in *Arotcarena, Soria et al. (2022) Aging Cell*
 
 # How to cite
 Please acknowledge these scripts if you use them in your publication. Cite the DOI from Zenodo.
